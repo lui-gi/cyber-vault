@@ -1,7 +1,7 @@
 # Labs
 
 ## Machines
-Write-ups live in `Machines/`, sorted by difficulty; use `Active/` for boxes in progress and `Retired/` for completed ones you want to keep as reference. Create a note with the **Machine** template.
+Write-ups live in `Machines/`, sorted by difficulty; use `Active/` for boxes in progress and `Retired/` for completed ones you want to keep as reference. Create a note with the **Lab** template (`kind: machine`).
 
 - [[Labs/Machines/Machine Index|Machine Index]]
 
@@ -14,8 +14,8 @@ Write-ups live in `Machines/`, sorted by difficulty; use `Active/` for boxes in 
 If the Dataview plugin is installed:
 
 ```dataview
-TABLE os, difficulty, status
+TABLE platform, difficulty, status
 FROM "Labs/Machines"
-WHERE type = "machine"
+WHERE type = "lab" AND kind = "machine"
 SORT difficulty ASC
 ```

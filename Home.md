@@ -1,7 +1,7 @@
-# HackTheBox Notes
+# Cyber Vault
 
 ## Sections
-- [[Labs/Labs Index|Labs]]: machines, challenges, Sherlocks, Pro Labs
+- [[Labs/Labs Index|Labs]]: machines, challenges, Sherlocks, Pro Labs (HTB, THM, CyLabs, etc.)
 - [[CPTS/CPTS Index|CPTS]]: Certified Penetration Testing Specialist path
 - [[Reference/Reference Index|Reference]]: tools, payloads, commands, methodology
 
