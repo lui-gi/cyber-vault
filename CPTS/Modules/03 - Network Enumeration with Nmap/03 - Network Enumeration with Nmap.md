@@ -404,7 +404,44 @@ Nmap done: 256 IP addresses (8 hosts up) scanned in 12.29 seconds
 ### Max Retries
 - another way to increase scan speed = specifying retry rate of sent packets
 	- via --max-retries
-- 
+- default val is 10
+- setting 10->0 results in adverse effects (less scanned), so be careful
+
+### Rates
+- during white box, we could get whitelisted for security systems to check for network vulnerabilities
+- thus, if we know the network bandwidth, we can speed up our scans
+- --min-rate `<num>`
+
+```bash
+# default/unoptimized
+luigifern@htb[/htb]$ sudo nmap 10.129.2.0/24 -F -oN tnet.default
+
+<SNIP>
+Nmap done: 256 IP addresses (10 hosts up) scanned in 29.83 seconds
+
+
+# optimized
+luigifern@htb[/htb]$ sudo nmap 10.129.2.0/24 -F -oN tnet.minrate300 --min-rate 300
+
+<SNIP>
+Nmap done: 256 IP addresses (10 hosts up) scanned in 8.67 seconds
+```
+
+### Timing
+- nmap has 6 timing templates 
+- 0-5 determine aggressiveness
+- can have adverse effects if too aggressive
+	- such as getting blocked
+- default is -T 3
+- (0 -> 5) = paranoid, sneaky, polite, normal, aggressive, insane
+## Firewall and IDS/IPS Evasion
+- different ways to avoid and bypass IDS/IPS and Firewalls with nmap
+#finish
+### Firewalls
+#finish 
+
+
+
 
 ---
 ## Commands

@@ -1,0 +1,27 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Oct 21 10:30:36 2026
+Invocation: /usr/bin/foremost -o /home/cmd/Github/obsidian/cyber-vault/CTF/NCL/forensics/file-carving-medium/green_file.stegray/foremost -i /home/cmd/Github/obsidian/cyber-vault/CTF/NCL/forensics/file-carving-medium/green_file 
+Output directory: /home/cmd/Github/obsidian/cyber-vault/CTF/NCL/forensics/file-carving-medium/green_file.stegray/foremost
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: /home/cmd/Github/obsidian/cyber-vault/CTF/NCL/forensics/file-carving-medium/green_file
+Start: Wed Oct 21 10:30:36 2026
+Length: 4 KB (4487 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	       3 KB 	          0 	  (63 x 36)
+1:	00000007.png 	      213 B 	       3605 	  (24 x 24)
+2:	00000007_1.png 	      222 B 	       3818 	  (24 x 24)
+3:	00000007_2.png 	      224 B 	       4040 	  (24 x 24)
+4:	00000008.png 	      223 B 	       4264 	  (24 x 24)
+Finish: Wed Oct 21 10:30:36 2026
+
+5 FILES EXTRACTED
+	
+png:= 5
+------------------------------------------------------------------
+
+Foremost finished at Wed Oct 21 10:30:36 2026

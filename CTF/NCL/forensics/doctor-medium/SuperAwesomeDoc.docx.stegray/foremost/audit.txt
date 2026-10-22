@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Oct 21 10:51:24 2026
+Invocation: /usr/bin/foremost -o /home/cmd/Github/obsidian/cyber-vault/CTF/NCL/forensics/doctor-medium/SuperAwesomeDoc.docx.stegray/foremost -i /home/cmd/Github/obsidian/cyber-vault/CTF/NCL/forensics/doctor-medium/SuperAwesomeDoc.docx 
+Output directory: /home/cmd/Github/obsidian/cyber-vault/CTF/NCL/forensics/doctor-medium/SuperAwesomeDoc.docx.stegray/foremost
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: /home/cmd/Github/obsidian/cyber-vault/CTF/NCL/forensics/doctor-medium/SuperAwesomeDoc.docx
+Start: Wed Oct 21 10:51:24 2026
+Length: 1 MB (2009113 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.docx 	       1 MB 	          0 	 
+Finish: Wed Oct 21 10:51:24 2026
+
+1 FILES EXTRACTED
+	
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Wed Oct 21 10:51:24 2026

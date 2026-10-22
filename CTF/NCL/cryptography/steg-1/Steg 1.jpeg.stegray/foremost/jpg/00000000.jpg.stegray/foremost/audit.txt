@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Oct 18 14:55:06 2026
+Invocation: /usr/bin/foremost -o /home/cmd/NCL/cryptography/steg-1/Steg 1.jpeg.stegray/foremost/jpg/00000000.jpg.stegray/foremost -i /home/cmd/NCL/cryptography/steg-1/Steg 1.jpeg.stegray/foremost/jpg/00000000.jpg 
+Output directory: /home/cmd/NCL/cryptography/steg-1/Steg 1.jpeg.stegray/foremost/jpg/00000000.jpg.stegray/foremost
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: /home/cmd/NCL/cryptography/steg-1/Steg 1.jpeg.stegray/foremost/jpg/00000000.jpg
+Start: Sun Oct 18 14:55:06 2026
+Length: 41 KB (42606 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	      41 KB 	          0 	 
+Finish: Sun Oct 18 14:55:06 2026
+
+1 FILES EXTRACTED
+	
+jpg:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sun Oct 18 14:55:06 2026

@@ -13,8 +13,27 @@
 
 ## Current
 ### Truist CTF
+
+Web Modules in CPTS:
+- SQLi
+- Command Injection
+- File Inclusion / Path Traversal
+- XSS
+- File Upload
+- Content Discovery
+
+Web Modules beyond CPTS:
+- SSTI
+- JWT attacks
+- Source/info disclosure
+- IDOR / broken access control
+- SSRF
+
+
+
+
 - Studying for Truist x HackTheBox CTF, see targeted modules below
-	- Network Enumeration with Nmap
+	- Network Enumeration with Nmap [x]
 	- Footprinting
 	- Information Gathering - Web
 	- Linux Privesc
@@ -35,4 +54,5 @@
 	- Attacking Common Applications
 - List of solved machines:
 	- na
+- 
 
